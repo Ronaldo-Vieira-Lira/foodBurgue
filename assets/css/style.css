@@ -116,3 +116,34 @@ nav {
     border-color: #fff;
     color: #000;
 }
+
+#servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.caixaServ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.caixaServ p {
+    width: 90%;
+    color: #868687;
+}
+
+.borderImg {
+    width: fit-content;
+    background-color: #FAB400;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
