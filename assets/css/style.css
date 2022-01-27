@@ -103,7 +103,7 @@ nav {
     color: #868687;
 }
 
-.burgBanner {
+#burgBanner {
     width: 35vw;
 }
 
@@ -154,3 +154,6 @@ nav {
     margin-bottom: 5px;
 }
 
+.burgImg {
+    width: 250px;
+}
