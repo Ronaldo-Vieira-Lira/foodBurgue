@@ -10,17 +10,16 @@
 }
 
 body {
-    background: url("../images/background.jpg") ;
+    background: url("../images/background.jpg");
 }
 
 header {
     display: flex;
     justify-content: center;
     position: fixed;
-    padding: 1rem !important;
-    width: 100%;
     top: 0;
     z-index: 9999;
+    width: 100%;
     padding: 10px;
     background-color: #000;
 }
@@ -57,7 +56,7 @@ nav {
 }
 
 #icon:hover {
-    filter: drop-shadow( 0 0 2px #FF1227);
+    filter: drop-shadow(0 0 2px #FF1227);
 }
 
 #icon:hover::after {
@@ -73,35 +72,41 @@ nav {
 }
 
 #home {
-    width: 100%;
-    height: 100%;
-    margin-top: 4rem;
-    padding: 3rem 9%;
-    background: url("../images/home-bg.png") no-repeat center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 9%;
+    margin-top: 4rem;
+    background: url("../images/home-bg.png") no-repeat center;
+    background-size: cover;
 }
+
 #caixaHome {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 15px;
+    text-align: center;
 }
+
 #caixaHome h1 {
     font-size: 2.5rem;
     font-weight: 700;
 }
+
 #caixaHome p {
     width: 80%;
     text-align: center;
     color: #868687;
 }
+
 .burgBanner {
     width: 35vw;
 }
+
 #btnCardapio {
     border: 1px solid #868687;
     background: transparent;
@@ -111,6 +116,7 @@ nav {
     cursor: pointer;
     transition: all .6s;
 }
+
 #btnCardapio:hover {
     background-color: #fff;
     border-color: #fff;
@@ -144,6 +150,6 @@ nav {
     width: fit-content;
     background-color: #FAB400;
     border-radius: 50%;
-    padding: 10px;
+    padding: 1.2rem;
     margin-bottom: 5px;
 }
