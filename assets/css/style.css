@@ -107,7 +107,7 @@ nav {
     width: 35vw;
 }
 
-#btnCardapio {
+.styleBtn {
     border: 1px solid #868687;
     background: transparent;
     padding: 15px;
@@ -117,7 +117,7 @@ nav {
     transition: all .6s;
 }
 
-#btnCardapio:hover {
+.styleBtn:hover {
     background-color: #fff;
     border-color: #fff;
     color: #000;
@@ -153,3 +153,4 @@ nav {
     padding: 1.2rem;
     margin-bottom: 5px;
 }
+
