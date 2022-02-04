@@ -199,6 +199,13 @@ nav {
     gap: 1rem;
 }
 
+.caixaEstrela {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
 .burgImg {
     width: 250px;
 }
