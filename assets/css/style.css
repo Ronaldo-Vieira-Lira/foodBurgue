@@ -9,6 +9,12 @@
     font-family: 'Raleway', sans-serif;
     color: #fff;
 }
+p {
+    font-size: 14px;
+    text-align: start;
+    line-height: 2rem;
+    color: #868687;
+}
 
 @keyframes bounce {
     8%, 28%, 68%, 100% {
@@ -111,9 +117,6 @@ nav {
 
 #caixaHome p {
     width: 80%;
-    text-align: center;
-    line-height: 2rem;
-    color: #868687;
 }
 
 .burgBanner {
@@ -156,7 +159,7 @@ nav {
 
 .caixaServ p {
     width: 90%;
-    color: #868687;
+    text-align: center;
 }
 
 .borderImg {
@@ -221,6 +224,7 @@ nav {
 
 .caixaTextBurg p {
     font-size: 1.2rem;
+
 }
 
 #areaChef {
@@ -248,10 +252,7 @@ nav {
 }
 
 #areaTextDesc p {
-    font-size: 1rem;
-    color: #868687;
-    text-align: start;
-    line-height: 2rem;
+    font-size: 16px;
 }
 
 #listaDesc {
@@ -268,3 +269,27 @@ nav {
     gap: 5px;
 }
 
+#avaliacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caixaAvaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    gap: 1rem;
+}
+
+.caixaAvaliacao > img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.caixaAvaliacao p {
+    width: 80%;
+    text-align: justify;
+}
