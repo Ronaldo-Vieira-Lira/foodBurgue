@@ -426,3 +426,38 @@ form {
     font-weight: 500;
     margin-bottom: 1rem;
 }
+
+.textBlog p {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+    background: linear-gradient(transparent, #000);
+}
+
+footer h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px ;
+}
+
+#marca {
+    font-weight: 300;
+    color: #FAB400;
+}
+
+#navFooter {
+    display: flex;
+    gap: 2rem;
+}
+
+#navFooter li {
+    padding: 14px 35px;
+}

@@ -433,18 +433,22 @@
                 </div>
             </div>
         </section>
+
         <footer>
-            <ul>
-                <li class="styleBtn">HOME</li>
-                <li class="styleBtn">MENU</li>
-                <li class="styleBtn">ESTRELA</li>
-                <li class="styleBtn">AVALIAÇÕES</li>
-                <li class="styleBtn">CONTATOS</li>
-                <li class="styleBtn">BLOG</li>
-            </ul>
-            <h3>Created By <strong> Ronaldo Vieira </strong> | All Rights Reserved!</h3>
+            <nav>
+                <ul id="navFooter">
+                    <li class="styleBtn">HOME</li>
+                    <li class="styleBtn">MENU</li>
+                    <li class="styleBtn">ESTRELA</li>
+                    <li class="styleBtn">AVALIAÇÕES</li>
+                    <li class="styleBtn">CONTATOS</li>
+                    <li class="styleBtn">BLOG</li>
+                </ul>
+            </nav>
+            <h3>Created By <strong id="marca"> Ronaldo Vieira </strong> | All Rights Reserved!</h3>
         </footer>
     </body>
+
     <script>
         function ver(situacao) {
             document.getElementById(`${situacao}`).style.visibility = "visible"
@@ -453,6 +457,5 @@
             document.getElementById(`${valor}`).style.visibility = "hidden"
         }
     </script>
-</html>
 
-<!-- background: linear-gradient(transparent, #000); -->
+</html>
