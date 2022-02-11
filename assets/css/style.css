@@ -98,7 +98,6 @@ nav {
     padding: 3rem 9%;
     margin-top: 4rem;
     background: url("../images/home-bg.png") no-repeat center;
-    background-size: cover;
 }
 
 #caixaHome {
@@ -120,9 +119,8 @@ nav {
 }
 
 .burgBanner {
-    width: 35vw;
+    width: 700px;
 }
-
 .styleBtn {
     border: 1px solid #868687;
     background: transparent;
@@ -156,6 +154,7 @@ nav {
     justify-content: center;
     text-align: center;
     gap: 10px;
+    max-width: 400px;
 }
 
 .caixaServ p {
@@ -176,7 +175,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 5rem;
     gap: 20px;
 }
 
@@ -186,6 +185,7 @@ nav {
     width: 75vw;
     gap: 5rem;
     text-align: center;
+    justify-content: start;
 }
 
 .title {
@@ -201,7 +201,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    max-width: 300px;
     gap: 1rem;
 }
 
@@ -235,6 +235,8 @@ nav {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
+    padding: 0 2rem 0 2rem;
 }
 
 #areaDescricao {
@@ -276,14 +278,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 5rem;
+    margin: 5rem 0 5rem 0;
 }
 
 #containerAvaliacao {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 .caixaAvaliacao {
@@ -305,6 +306,8 @@ nav {
     text-align: justify;
 }
 
+
+
 #contatos, #caixaPreencher {
     display: flex;
     flex-direction: column;
@@ -321,14 +324,16 @@ nav {
 
 #map {
     width: 700px;
-    height: 600px;
+    height: 620px;
 }
 
 #infoContatos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
 }
 
 
@@ -362,13 +367,17 @@ form {
     outline: none;
 }
 
+#blog {
+    margin-top: 5rem;
+}
+
 #containerBlog {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    padding: 1rem;
 }
-
 
 .post {
     display: flex;
@@ -378,8 +387,8 @@ form {
 }
 
 .postImg {
-    width: 500px;
-    height: 300px;
+    max-width: 500px;
+    max-height: 300px;
     overflow: hidden;
 }
 
@@ -446,6 +455,7 @@ footer h3 {
     font-size: 22px;
     font-weight: 300;
     margin: 30px ;
+    text-align: center;
 }
 
 #marca {
@@ -456,8 +466,73 @@ footer h3 {
 #navFooter {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #navFooter li {
     padding: 14px 35px;
+}
+
+
+@media(max-width: 1440px) {
+    #containerPratos {
+        justify-content: center;
+        gap: 9rem;
+        width: 100vw;
+        padding: 0 1rem 0 1rem;
+    }
+    #contatos {
+        padding: 0 2rem 0 2rem;
+    } 
+    #map {
+        display: none;
+    }
+    #caixaPreencher {
+        width: 80vw;   
+    }
+    #infoContatos {
+        justify-content: space-between;
+        gap: 0;
+    }
+    
+}
+
+@media(max-width: 1024px) {
+    #areaChef {
+        flex-direction: column;
+    }
+    #areaTextDesc {
+        align-items: center;
+    }
+    #containerPratos {
+        gap: 5rem;
+    }
+
+    .burgBanner {
+        width: 500px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    #infoContatos {
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .burgBanner {
+        width: 400px;
+    }
+    footer {
+        margin-top: 3.5rem;
+    }
+} 
+
+@media(max-width: 425px) {
+    .burgBanner {
+        width: 315px;
+    }
+    #areaChef, #areaChef p  {
+        text-align: center;
+    }
 }
